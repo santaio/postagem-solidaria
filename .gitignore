@@ -1,0 +1,9 @@
+## general
+.DS_Store
+
+## backend
+
+## frontend
+node_modules
+files
+debug.log
