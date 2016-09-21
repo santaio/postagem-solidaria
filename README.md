@@ -10,6 +10,7 @@ npm i
 ````
 
 ## Getting Started
+
 ````shell
 gulp
 ````
@@ -17,36 +18,31 @@ gulp
 ## Structure
 
 ````shell
-├── app
+├── public #................. DEPLOY.
 │   ├── 
 │   └── folder #............. description.
 │       ├── folder #......... description.
 │       └── folder #......... description.
 │
-├── public #................. description.
-│   ├── 
-│   └── folder #............. description.
-│       ├── folder #......... description.
-│       └── folder #......... description.
-│
-│
-└── src #.................... description.
-    ├── folder #............. description.
-    └── folder #............. description.
+└── src #.................... DEV.
+    ├── fonts #.............. fonts.
+    ├── img #................ assets.
+    └── js #................. JS and vendors.
+    └── stylus #............. CSS and vendors.
 ````
 
 ## Stack
 
 ````shell
-* Views ................ HTML.
-* Front Automation ..... Gulp.
+* Views ..................... HTML.
+* Front Automation .......... Gulp.
 ````
 
 ## Languages
 
 ````shell
-* Javscript ...... JavaScript.
-* Styles ......... Stylus.
+* JS ........................ JavaScript/jQuery.
+* CSS ....................... Stylus.
 ````
 
 ## Libraries
@@ -54,17 +50,15 @@ gulp
 > CSS libraries
 
 ````shell
-* Grid ........... Jeet.
-* MediaQueries ... Rupture.
+* Grid ...................... Jeet.
+* MediaQueries .............. Rupture.
 * ...
 ````
 
 > JS libraries
 
 ````shell
-* Library Name ..... url to lib.
-* Library Name ..... url to lib.
-* Library Name ..... url to lib.
-* Library Name ..... url to lib.
-* Library Name ..... url to lib.
+* Library Name .............. url to lib.
+* Library Name .............. url to lib.
+* Library Name .............. url to lib.
 ````
