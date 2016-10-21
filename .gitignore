@@ -4,6 +4,11 @@
 ## backend
 
 ## frontend
+bower_components
 node_modules
 files
 debug.log
+public/fonts
+public/img
+public/js
+public/css
