@@ -7,6 +7,7 @@ Run before anything else:
 
 ````shell
 npm i
+bower i
 ````
 
 ## Getting Started
@@ -18,17 +19,17 @@ gulp
 ## Structure
 
 ````shell
-├── public #................. DEPLOY.
-│   ├── 
-│   └── folder #............. description.
-│       ├── folder #......... description.
-│       └── folder #......... description.
-│
+├──  public #................ DEPLOY.
+|    ├── fonts #............. Copy src fonts.
+|    ├── img #............... Minified assets.
+|    ├── js #................ Minified JS files.
+|    └── css #............ Minified CSS files.
+|    
 └── src #.................... DEV.
     ├── fonts #.............. fonts.
     ├── img #................ assets.
-    └── js #................. JS and vendors.
-    └── stylus #............. CSS and vendors.
+    ├── js #................. JS files.
+    └── styles #............. CSS files.
 ````
 
 ## Stack
@@ -50,6 +51,7 @@ gulp
 > CSS libraries
 
 ````shell
+* PostCSS
 * Grid ...................... Jeet.
 * MediaQueries .............. Rupture.
 * ...
@@ -58,7 +60,11 @@ gulp
 > JS libraries
 
 ````shell
-* Library Name .............. url to lib.
-* Library Name .............. url to lib.
-* Library Name .............. url to lib.
+* jQuery
+* jQuery.Easing
+* jQuery.Maskedinput
+* Fastclick
+* Owl.Carousel
+* Slimscroll
+* Velocity
 ````
