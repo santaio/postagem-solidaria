@@ -1,4 +1,4 @@
-# Repositório do Projeto Social
+# Projeto Social Postagem Solidária
 Postagem Solidária, que tem como propósito ajudar no encontro de pessoas desaparecidas através de publicações feitas diretamente na timeline de Redes Sociais.
 
 ## Setup
